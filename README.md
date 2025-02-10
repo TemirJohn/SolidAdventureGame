@@ -122,18 +122,6 @@ This project demonstrates the implementation of SOLID principles in a game archi
 - Unlock all achievements
 - Maximize score
 
-## **Technical Details**
-
-### **Design Patterns Used**
-- Factory Pattern for level creation
-- Strategy Pattern for combat system
-- Observer Pattern for achievement tracking
-
-### **Key Components**
-- Modular architecture
-- Event-driven systems
-- Extensible enemy and item frameworks
-- Achievement tracking system
 
 ## **Future Enhancements**
 - Additional enemy types
