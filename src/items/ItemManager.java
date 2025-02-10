@@ -54,8 +54,6 @@ public class ItemManager implements IInventorySystem {
         score.addScore(1);
         items.remove(item);
 
-        /*showInventory();*/
-
         levelManager.checkAndHandleLevelUp(player);
 
         if (items.isEmpty()) {
@@ -78,20 +76,6 @@ public class ItemManager implements IInventorySystem {
                     ", XP: +" + item.getItemEXP() + ")");
         }
     }
-
-    /*public void showInventory() {
-        List<Item> inventory = player.getInventory();
-        if (inventory.isEmpty()) {
-            System.out.println("🎒 Inventory is empty");
-            return;
-        }
-
-        System.out.println("\n🎒 Current inventory:");
-        for (int i = 0; i < inventory.size(); i++) {
-            Item item = inventory.get(i);
-            System.out.println((i + 1) + ". " + item.getItemName());
-        }
-    }*/
 
     @Override
     public void addItem(Item item) {
@@ -123,9 +107,5 @@ public class ItemManager implements IInventorySystem {
     @Override
     public boolean hasItems() {
         return !items.isEmpty();
-    }
-
-    private void applyItemEffects(Item item, Player player) {
-        // ... логика применения эффектов предмета ...
     }
 }
