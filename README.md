@@ -11,6 +11,11 @@ This project demonstrates the implementation of SOLID principles in a game archi
 - Achievement system
 - Score tracking
 
+## **UML Diagram**
+
+![Adventure Game UML Diagram](https://github.com/TemirJohn/SolidAdventureGame/blob/main/UML%20Diagrams.png)
+
+
 ## **Technical Architecture**
 
 ### **Project Structure**
@@ -136,3 +141,4 @@ This project demonstrates the implementation of SOLID principles in a game archi
 - Extended achievement system
 - Save/Load functionality
 - Enhanced combat mechanics
+
